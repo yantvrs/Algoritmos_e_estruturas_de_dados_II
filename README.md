@@ -47,7 +47,7 @@ To get started with this repository, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yantvrs/Algoritmos_e_estruturas_de_dados_II.git
+   git clone https://github.com/yantvrs/Data_structure_2.git
    ```
 
 2. Navigate to the relevant folder for the topic you're interested in.
