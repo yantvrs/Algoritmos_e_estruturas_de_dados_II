@@ -1,4 +1,3 @@
-Claro! Aqui está o README com emojis nos tópicos:
 
 # Algorithms and Data Structures II 📚
 
