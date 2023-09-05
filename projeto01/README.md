@@ -1,75 +1,74 @@
-# Autocompletar Palavras usando Árvore AVL 🌳
+# Autocompleting Words using AVL Tree 🌳
 
-Este repositório contém uma implementação em Python de um sistema de autocompletar palavras utilizando uma Árvore AVL.
+This repository contains a Python implementation of a word autocompletion system using an AVL Tree.
 
-## Pré-requisitos 📋
+## Prerequisites 📋
 
-Antes de executar o código, certifique-se de ter instalado o Python em sua máquina. Você pode fazer o download do Python em [python.org](https://www.python.org/downloads/).
+Before running the code, make sure you have Python installed on your machine. You can download Python from [python.org](https://www.python.org/downloads/).
 
-## Pré-processamento do Corpus 🔍
+## Corpus Preprocessing 🔍
 
-- O corpus de texto é carregado e pré-processado para preparação.
+- The text corpus is loaded and preprocessed for preparation.
 
-### Conversão para Minúsculas
+### Conversion to Lowercase
 
-- Todo o texto é convertido para letras minúsculas para garantir consistência.
+- All text is converted to lowercase to ensure consistency.
 
-### Remoção de Pontuação e Caracteres Especiais
+### Removal of Punctuation and Special Characters
 
-- Pontuações e caracteres especiais são removidos para extrair apenas palavras.
+- Punctuation and special characters are removed to extract only words.
 
-### Divisão em Palavras
+### Word Tokenization
 
-- O texto é dividido em palavras individuais para construir o corpus.
+- The text is split into individual words to build the corpus.
 
-### Remoção de Palavras de Parada (Opcional)
+### Removal of Stopwords (Optional)
 
-- Palavras de parada, como "e", "ou", "mas", "a", "o", etc., podem ser removidas, dependendo das necessidades.
+- Stopwords such as "and," "or," "but," "the," "a," "an," etc., can be removed, depending on your needs.
 
-## Construção da Árvore AVL 🌳
+## Construction of AVL Tree 🌳
 
-- Todas as palavras únicas do corpus são inseridas em uma Árvore AVL para facilitar a busca.
+- All unique words from the corpus are inserted into an AVL Tree for efficient word lookup.
 
-## Autocompletar Palavras 🚀
+## Autocompleting Words 🚀
 
-- Uma função é implementada para encontrar palavras completas que começam com um determinado prefixo.
+- A function is implemented to find complete words that start with a given prefix.
 
-## Análise de Desempenho ⏱️
+## Performance Analysis ⏱️
 
-### Comparação com Estruturas Simples
+### Comparison with Simple Data Structures
 
-- Comparamos o desempenho da Árvore AVL com estruturas mais simples, como uma lista não ordenada e uma árvore binária de busca não balanceada.
+- We compare the performance of the AVL Tree with simpler data structures, such as an unordered list and an unbalanced binary search tree.
 
-### Impacto do Tamanho do Corpus
+### Impact of Corpus Size
 
-- Analisamos como o tamanho do corpus afeta o desempenho da Árvore AVL.
+- We analyze how the size of the corpus affects the performance of the AVL Tree.
 
-## Como Executar o Código ▶️
+## How to Run the Code ▶️
 
-- Instruções sobre como executar o código em seu ambiente estão disponíveis no arquivo `main.py`.
+- Instructions on how to run the code in your environment are available in the `main.py` file.
 
-## Exemplo de Uso 💡
+## Usage Examples 💡
 
-- Mostre exemplos de como usar o sistema de autocompletar palavras com amostras de texto ou corpus.
+- Provide examples of how to use the word autocompletion system with text samples or a corpus.
 
-## Autores 👨‍💻👩‍💻
+## Authors 👨‍💻👩‍💻
 
 - [Yan Tavares](https://github.com/yantvrs)
 - [Emanoel Batista](https://github.com/EmanoelBatista)
 
-## Vídeo Explicativo 📹
+## Explainer Video 📹
 
-- Assista ao vídeo explicativo [aqui](link do vídeo no Loom).
+- Watch the explanatory video [here](link to the video on Loom).
 
-## Contribuições 🤝
+## Contributions 🤝
 
-- Se você deseja contribuir para este projeto, por favor, abra uma _pull request_ e descreva suas alterações.
+- If you wish to contribute to this project, please open a pull request and describe your changes.
 
-## Problemas e Sugestões 🐛
+## Issues and Suggestions 🐛
 
-- Se encontrar algum problema ou tiver sugestões, por favor, abra uma _issue_.
+- If you encounter any issues or have suggestions, please open an issue.
 
-## Licença 📜
+## License 📜
 
-Este projeto está sob a Licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para detalhes.
-
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
