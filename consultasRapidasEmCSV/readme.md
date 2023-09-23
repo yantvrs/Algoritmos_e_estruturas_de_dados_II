@@ -4,7 +4,7 @@ Este projeto envolve a criação de uma classe chamada `Inventory` para represen
 
 ## Vídeo explicativo
 
-Assista ao vídeo explicativo [aquil](https://www.loom.com/share/cde99f21e8d04f1c8d04f3ace932095a?sid=183ea0e4-e5c6-43a5-8577-47e26a7d131c)
+Assista ao vídeo explicativo [aqui](https://www.loom.com/share/cde99f21e8d04f1c8d04f3ace932095a?sid=183ea0e4-e5c6-43a5-8577-47e26a7d131c).
 
 ## Estrutura do Projeto
 
