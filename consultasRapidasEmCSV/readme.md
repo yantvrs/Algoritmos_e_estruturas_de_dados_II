@@ -56,5 +56,5 @@ cheapest_laptop = inventory.find_cheapest_laptop_with_specifications(8, 256)
 ```
 # Desenvolvedores
 
-## [Emanoel Batista](https://github.com/EmanoelBatista)
-## [Yan Tavares](https://github.com/yantvrs)
+ - [Emanoel Batista](https://github.com/EmanoelBatista)
+ - [Yan Tavares](https://github.com/yantvrs)
