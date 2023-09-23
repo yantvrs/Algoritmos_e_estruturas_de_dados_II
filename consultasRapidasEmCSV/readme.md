@@ -6,6 +6,10 @@ Este projeto envolve a criação de uma classe chamada `Inventory` para represen
 
 Assista ao vídeo explicativo [aqui](https://www.loom.com/share/cde99f21e8d04f1c8d04f3ace932095a?sid=183ea0e4-e5c6-43a5-8577-47e26a7d131c).
 
+## Análise da complexidade algorítmica
+
+Para acessar a análise da complexidade algorítmica, basta clicar [aqui](https://github.com/yantvrs/Data_structure_2/blob/main/consultasRapidasEmCSV/complexidade.md)
+
 ## Estrutura do Projeto
 
 O projeto é organizado em várias etapas, cada uma adicionando funcionalidades à classe `Inventory`:
