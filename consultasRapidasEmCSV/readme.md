@@ -53,7 +53,7 @@ laptops_in_range = inventory.find_laptops_in_price_range(500, 1000)
 
 # Encontrar o laptop mais barato com especificações desejadas
 cheapest_laptop = inventory.find_cheapest_laptop_with_specifications(8, 256)
-
+```
 # Desenvolvedores
 
 ## [Emanoel Batista](https://github.com/EmanoelBatista)
