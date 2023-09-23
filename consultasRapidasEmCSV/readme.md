@@ -2,6 +2,10 @@
 
 Este projeto envolve a criação de uma classe chamada `Inventory` para representar um inventário de laptops em uma loja online. A classe implementa métodos para responder a várias perguntas comerciais sobre o estoque de laptops. Os dados do inventário são armazenados em um arquivo CSV chamado `laptops.csv`.
 
+## Vídeo explicativo
+
+Assista ao vídeo explicativo [aquil](https://www.loom.com/share/cde99f21e8d04f1c8d04f3ace932095a?sid=183ea0e4-e5c6-43a5-8577-47e26a7d131c)
+
 ## Estrutura do Projeto
 
 O projeto é organizado em várias etapas, cada uma adicionando funcionalidades à classe `Inventory`:
