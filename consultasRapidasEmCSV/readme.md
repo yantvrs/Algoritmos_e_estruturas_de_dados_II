@@ -8,7 +8,7 @@ Watch the explanatory video [here](https://www.loom.com/share/cde99f21e8d04f1c8d
 
 ## 📈 Algorithmic Complexity Analysis
 
-To access the algorithmic complexity analysis, simply click [here](https://github.com/yantvrs/Data_structure_2/blob/main/consultasRapidasEmCSV/complexity.md).
+To access the algorithmic complexity analysis, simply click [here](https://github.com/yantvrs/Data_structure_2/blob/main/consultasRapidasEmCSV/complexidade.md).
 
 ## Project Structure
 
