@@ -1,54 +1,47 @@
-# Complexidade Algorítmica
+# Algorithmic Complexity
 
-Neste projeto, implementamos várias funções para consulta de inventário de laptops. Abaixo, analisamos a complexidade de tempo de algumas dessas funções em relação aos aspectos de Big O, Big Theta (Θ) e Big Omega (Ω):
+In this project, we have implemented various functions for querying laptop inventory. Below, we analyze the time complexity of some of these functions in terms of Big O, Big Theta (Θ), and Big Omega (Ω):
 
 ## 1) `__init__(self, csv_filename)`:
 
-Big O (O(n)): A complexidade deste construtor é linear em relação ao número de linhas no arquivo CSV, onde "n" representa o número de linhas. Isso ocorre porque ele lê cada linha do arquivo e realiza operações constantes para criar estruturas de dados como self.rows, self.id_to_row, e self.prices.
-
-Big Theta (Θ(n)): A complexidade é linear, já que o construtor percorre todas as linhas do arquivo e realiza operações constantes para cada linha.
-
-Big Omega (Ω(n)): A complexidade é linear no melhor caso, que ocorre quando o arquivo CSV contém apenas uma linha. Mesmo nesse caso, todas as operações de leitura e criação de estruturas de dados ainda precisam ser executadas.
+- **Big O (O(n))**: The complexity of this constructor is linear with respect to the number of lines in the CSV file, where "n" represents the number of lines. This is because it reads each line of the file and performs constant-time operations to create data structures like self.rows, self.id_to_row, and self.prices.
+- **Big Theta (Θ(n))**: The complexity is linear since the constructor traverses all lines of the file and performs constant-time operations for each line.
+- **Big Omega (Ω(n))**: The complexity is linear in the best case, which occurs when the CSV file contains only one line. Even in this case, all reading and data structure creation operations still need to be executed.
 
 ## 2) `get_laptop_from_id`:
 
-- **Big O (O(n))**: A complexidade deste método é linear, onde "n" representa o número de laptops no inventário (ou o tamanho da lista `self.rows`). Isso ocorre porque o algoritmo percorre todas as linhas da lista uma vez para procurar um laptop com um ID correspondente. No pior caso, ele pode precisar percorrer todas as linhas antes de encontrar o laptop desejado.
-- **Big Theta (Θ(n))**: A complexidade é linear porque, no melhor e no pior caso, o algoritmo sempre percorre todas as linhas da lista.
-- **Big Omega (Ω(1))**: No melhor caso, se o laptop desejado estiver na primeira linha da lista, o algoritmo terminará imediatamente, o que seria uma complexidade constante.
+- **Big O (O(n))**: The complexity of this method is linear, where "n" represents the number of laptops in the inventory (or the size of the `self.rows` list). This is because the algorithm traverses all lines of the list once to search for a laptop with a matching ID. In the worst case, it may need to traverse all lines before finding the desired laptop.
+- **Big Theta (Θ(n))**: The complexity is linear because, in both the best and worst cases, the algorithm always traverses all lines of the list.
+- **Big Omega (Ω(1))**: In the best case, if the desired laptop is in the first line of the list, the algorithm will finish immediately, which would be constant complexity.
 
 ## 3) `get_laptop_from_id_fast`:
 
-- **Big O (O(1))**: A complexidade deste método é constante, ou seja, independente do tamanho da lista `self.rows` ou do número de laptops no inventário. Isso ocorre porque o acesso a um valor em um dicionário (usando a chave) é uma operação de tempo constante.
-- **Big Theta (Θ(1))**: A complexidade é constante, pois a operação de acesso ao dicionário é sempre executada em tempo constante.
-- **Big Omega (Ω(1))**: No melhor caso, quando o laptop desejado está no dicionário na primeira tentativa, o algoritmo terminará imediatamente, o que é uma complexidade constante.
+- **Big O (O(1))**: The complexity of this method is constant, i.e., independent of the size of the `self.rows` list or the number of laptops in the inventory. This is because accessing a value in a dictionary (using the key) is a constant-time operation.
+- **Big Theta (Θ(1))**: The complexity is constant because the dictionary access operation is always executed in constant time.
+- **Big Omega (Ω(1))**: In the best case, when the desired laptop is already in the dictionary, the algorithm will finish immediately, which is constant complexity.
 
 ## 4) `check_promotion_dollars`:
 
-- **Big O (O(n^2))**: A complexidade deste método é quadrática, onde "n" representa o número de laptops no inventário. Isso ocorre porque ele possui um loop dentro de outro loop, verificando todas as combinações possíveis de preços. No pior caso, ele precisará verificar todas as combinações, resultando em uma complexidade quadrática.
-- **Big Theta (Θ(n^2))**: A complexidade é quadrática, pois, no melhor e no pior caso, o algoritmo precisa verificar todas as combinações possíveis de preços.
-- **Big Omega (Ω(n))**: No melhor caso, se houver uma correspondência direta com um laptop, o algoritmo terminará imediatamente, o que seria uma complexidade linear.
+- **Big O (O(n^2))**: The complexity of this method is quadratic, where "n" represents the number of laptops in the inventory. This is because it has one loop inside another loop, checking all possible combinations of prices. In the worst case, it needs to check all combinations, resulting in quadratic complexity.
+- **Big Theta (Θ(n^2))**: The complexity is quadratic because, in both the best and worst cases, the algorithm needs to check all possible combinations of prices.
+- **Big Omega (Ω(n))**: In the best case, if there is a direct match with a laptop, the algorithm will finish immediately, which is linear complexity.
 
 ## 5) `check_promotion_dollars_fast`:
 
-- **Big O (O(1))**: A complexidade deste método é constante, pois a verificação da existência de um preço em um conjunto (set) é uma operação de tempo constante.
-- **Big Theta (Θ(1))**: A complexidade é constante, pois a operação de verificação no conjunto é sempre executada em tempo constante.
-- **Big Omega (Ω(1))**: No melhor caso, quando o preço desejado já existe no conjunto, o algoritmo terminará imediatamente, o que é uma complexidade constante.
-
+- **Big O (O(1))**: The complexity of this method is constant because checking for the existence of a price in a set is a constant-time operation.
+- **Big Theta (Θ(1))**: The complexity is constant because the set checking operation is always executed in constant time.
+- **Big Omega (Ω(1))**: In the best case, when the desired price already exists in the set, the algorithm will finish immediately, which is constant complexity.
 
 ## 6) `find_laptops_in_price_range`
 
-- **Big O (O(n))**: A complexidade deste algoritmo é linear, onde "n" representa o número de laptops no inventário (ou o tamanho da lista `self.rows`). Isso ocorre porque o algoritmo percorre cada linha da lista uma vez, verificando se o preço está dentro da faixa especificada. No pior caso, ele pode precisar percorrer todas as linhas da lista.
-
-- **Big Theta (Θ(n))**: A complexidade é linear porque, no melhor e no pior caso, o algoritmo sempre percorre todas as linhas da lista.
-
-- **Big Omega (Ω(1))**: No melhor caso, se o primeiro laptop na lista estiver dentro da faixa de preço especificada, o algoritmo terminará imediatamente, o que seria uma complexidade constante. No entanto, isso é improvável na prática, e o caso médio e o pior caso têm complexidade linear.
+- **Big O (O(n))**: The complexity of this algorithm is linear, where "n" represents the number of laptops in the inventory (or the size of the `self.rows` list). This is because the algorithm traverses each line of the list once, checking if the price is within the specified range. In the worst case, it may need to traverse all lines of the list.
+- **Big Theta (Θ(n))**: The complexity is linear because, in both the best and worst cases, the algorithm always traverses all lines of the list.
+- **Big Omega (Ω(1))**: In the best case, if the first laptop in the list is within the specified price range, the algorithm will finish immediately, which would be constant complexity. However, this is unlikely in practice, and the average and worst cases have linear complexity.
 
 ## 7) `find_cheapest_laptop_with_specifications`
 
-- **Big O (O(n))**: A complexidade deste algoritmo é linear, onde "n" representa o número de laptops no inventário (ou o tamanho da lista `self.rows`). Isso ocorre porque o algoritmo percorre cada linha da lista uma vez, verificando as especificações de RAM e armazenamento.
+- **Big O (O(n))**: The complexity of this algorithm is linear, where "n" represents the number of laptops in the inventory (or the size of the `self.rows` list). This is because the algorithm traverses each line of the list once, checking RAM and storage specifications.
+- **Big Theta (Θ(n))**: The complexity is linear because, in both the best and worst cases, the algorithm always traverses all lines of the list.
+- **Big Omega (Ω(1))**: In the best case, if the first laptop in the list meets the specifications, the algorithm will finish immediately, which would be constant complexity. However, this is unlikely in practice, and the average and worst cases have linear complexity.
 
-- **Big Theta (Θ(n))**: A complexidade é linear porque, no melhor e no pior caso, o algoritmo sempre percorre todas as linhas da lista.
-
-- **Big Omega (Ω(1))**: No melhor caso, se o primeiro laptop na lista atender às especificações, o algoritmo terminará imediatamente, o que seria uma complexidade constante. No entanto, isso é improvável na prática, e o caso médio e o pior caso têm complexidade linear.
-
-Essas análises de complexidade nos ajudam a entender o desempenho das funções e a escolher a implementação mais eficiente, dependendo dos requisitos do projeto.
+These complexity analyses help us understand the performance of the functions and choose the most efficient implementation depending on the project's requirements.
