@@ -1,68 +1,69 @@
-# Projeto de Inventário de Laptops
+# Laptop Inventory Project
 
-Este projeto envolve a criação de uma classe chamada `Inventory` para representar um inventário de laptops em uma loja online. A classe implementa métodos para responder a várias perguntas comerciais sobre o estoque de laptops. Os dados do inventário são armazenados em um arquivo CSV chamado `laptops.csv`.
+This project involves creating a class called `Inventory` to represent an inventory of laptops in an online store. The class implements methods to answer various business questions about the laptop stock. Inventory data is stored in a CSV file called `laptops.csv`.
 
-## Vídeo explicativo
+## 🎥 Video Explanation
 
-Assista ao vídeo explicativo [aqui](https://www.loom.com/share/cde99f21e8d04f1c8d04f3ace932095a?sid=183ea0e4-e5c6-43a5-8577-47e26a7d131c).
+Watch the explanatory video [here](https://www.loom.com/share/cde99f21e8d04f1c8d04f3ace932095a?sid=183ea0e4-e5c6-43a5-8577-47e26a7d131c).
 
-## Análise da complexidade algorítmica
+## 📈 Algorithmic Complexity Analysis
 
-Para acessar a análise da complexidade algorítmica, basta clicar [aqui](https://github.com/yantvrs/Data_structure_2/blob/main/consultasRapidasEmCSV/complexidade.md).
+To access the algorithmic complexity analysis, simply click [here](https://github.com/yantvrs/Data_structure_2/blob/main/consultasRapidasEmCSV/complexity.md).
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto é organizado em várias etapas, cada uma adicionando funcionalidades à classe `Inventory`:
+The project is organized into several stages, each adding functionality to the `Inventory` class:
 
-### Etapa 1: Leitura dos Dados
+### 🚀 Stage 1: Data Reading
 
-Nesta etapa, os dados do arquivo CSV são lidos e armazenados em uma lista.
+In this stage, data from the CSV file is read and stored in a list.
 
-### Etapa 2: Consulta por ID
+### 🚀 Stage 2: Query by ID
 
-Foi implementado o método `get_laptop_from_id` para encontrar os dados de um laptop com base em seu ID.
+The `get_laptop_from_id` method is implemented to find the data of a laptop based on its ID.
 
-### Etapa 3: Otimização de Consulta por ID
+### 🚀 Stage 3: Query by ID Optimization
 
-Para melhorar a eficiência da consulta por ID, foi adicionado um dicionário `id_to_row` que mapeia IDs de laptop para suas linhas correspondentes no CSV. Isso acelera a pesquisa de laptops por ID.
+To improve the efficiency of querying by ID, an `id_to_row` dictionary has been added, mapping laptop IDs to their corresponding rows in the CSV. This speeds up laptop searches by ID.
 
-### Etapa 4: Verificação de Promoção
+### 🚀 Stage 4: Promotion Checking
 
-Foi criado o método `check_promotion_dollars` para verificar se é possível encontrar um laptop ou uma combinação de laptops cujo preço total seja igual a uma quantia em dinheiro especificada.
+The `check_promotion_dollars` method has been created to check if it is possible to find a laptop or a combination of laptops whose total price equals a specified amount of money.
 
-### Etapa 5: Otimização da Verificação de Promoção
+### 🚀 Stage 5: Promotion Checking Optimization
 
-Para otimizar a verificação de promoção, foi adicionado um conjunto `prices` que armazena os preços únicos de laptops. Isso permite verificar se um preço específico existe no conjunto em tempo constante, acelerando a verificação.
+To optimize promotion checking, a `prices` set has been added that stores unique laptop prices. This allows checking if a specific price exists in the set in constant time, speeding up the verification process.
 
-### Etapa 6: Pesquisa por Faixa de Preço
+### 🚀 Stage 6: Price Range Search
 
-Foi implementado o método `find_laptops_in_price_range` para encontrar todos os laptops cujos preços estejam dentro de uma determinada faixa.
+The `find_laptops_in_price_range` method has been implemented to find all laptops whose prices fall within a certain range.
 
-### Etapa 7: Encontrar o Laptop Mais Barato com Especificações
+### 🚀 Stage 7: Finding the Cheapest Laptop with Specifications
 
-Foi criado o método `find_cheapest_laptop_with_specifications` para encontrar o laptop mais barato que atenda a determinados critérios de RAM e armazenamento.
+The `find_cheapest_laptop_with_specifications` method has been created to find the cheapest laptop that meets certain RAM and storage criteria.
 
-## Uso da Classe
+## Using the Class
 
-A classe `Inventory` pode ser usada para consultar informações sobre laptops no inventário, verificar promoções e encontrar laptops dentro de faixas de preço específicas. Abaixo estão alguns exemplos de uso:
+The `Inventory` class can be used to query information about laptops in the inventory, check promotions, and find laptops within specific price ranges. Below are some usage examples:
 
 ```python
-# Criar uma instância do inventário
+# Create an inventory instance
 inventory = Inventory('laptops.csv')
 
-# Consultar informações de um laptop por ID
+# Query laptop information by ID
 laptop_info = inventory.get_laptop_from_id('3362737')
 
-# Verificar promoções
+# Check promotions
 promotion_result = inventory.check_promotion_dollars(1000)
 
-# Encontrar laptops dentro de uma faixa de preço
+# Find laptops within a price range
 laptops_in_range = inventory.find_laptops_in_price_range(500, 1000)
 
-# Encontrar o laptop mais barato com especificações desejadas
+# Find the cheapest laptop with desired specifications
 cheapest_laptop = inventory.find_cheapest_laptop_with_specifications(8, 256)
+
 ```
-# Desenvolvedores
+# Developers
 
  - [Emanoel Batista](https://github.com/EmanoelBatista)
  - [Yan Tavares](https://github.com/yantvrs)
