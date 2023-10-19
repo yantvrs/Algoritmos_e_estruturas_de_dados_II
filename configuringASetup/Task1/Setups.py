@@ -1,25 +1,28 @@
-class CarSetup:
-    # Constructor to initialize car setup
-    def __init__(self, brakes, gearbox, rear_wing, front_wing, suspension, engine):
-        self.brakes = brakes
-        self.gearbox = gearbox
-        self.rear_wing = rear_wing
-        self.front_wing = front_wing
+class CarSetups:
+    def __init__(self, breaks, gearBox, rearWing, frontWing, suspension, engine):
+        self.breaks = breaks
+        self.gearBox = gearBox
+        self.rearWing = rearWing
+        self.frontWing = frontWing
         self.suspension = suspension
         self.engine = engine
 
-    # Method to calculate contributions of each component
+    breaksOptions = ["Wildcore", "Suspense", "The Warden", "Onyx", "Axiom", "Crisis SL", "Essence", "Starter"]
+    gearBoxesOptions = ["Voyage", "Vector", "Kick Shift", "Verdict", "Spectrum", "Swiftcharge", "Switch-R-OO", "Starter"]
+    rearWingsOptions = ["Typhoon", "Transcendence", "Freeflare", "The Patron", "The Wasp", "The Matador", "Phantom-X", "Starter"]
+    frontWingsOptions = ["Virtue", "Thunderclap", "Trailblazer", "Zeno", "The Vagabond", "Feral Punch", "The Scout", "Starter"]
+    suspensionsOptions = ["Sigma", "Presence", "Horizon", "Radiance", "Icon V3", "Rodeo", "The Equator", "Starter"]
+    enginesOptions = ["Cloudroar", "Avalanche", "The Rover", "Twinburst", "Enigma", "Nova", "Brute Force", "Starter"]
+
     def sum_contributions(self):
-        # Initialize a dictionary to store contributions
         contributions = {
             "speed": 0,
             "cornering": 0,
-            "power_unit": 0,
+            "powerUnit": 0,
             "reliability": 0,
-            "avg_pit_stop_time": 0
+            "averagePitStopTime": 0
         }
 
-        # Define contributions for different components
         brakes_contributions = {
             "Wildcore": (36, 23, 33, 22, 0.59),
             "Suspense": (20, 32, 23, 21, 0.37),
@@ -30,6 +33,7 @@ class CarSetup:
             "Essence": (14, 13, 12, 25, 0.76),
             "Starter": (1, 1, 1, 1, 1)
         }
+
         gearbox_contributions = {
             "Voyage": (23, 28, 22, 27, 0),
             "Vector": (24, 38, 22, 36, 0.55),
@@ -37,9 +41,11 @@ class CarSetup:
             "Verdict": (33, 18, 20, 30, 0.63),
             "Spectrum": (20, 25, 21, 23, 0.53),
             "Swiftcharge": (14, 23, 22, 16, 0.71),
-            "Switch-R-OD": (12, 13, 11, 14, 0.47),
+            "Switch-R-OO": (12, 13, 11, 14, 0.47),
             "Starter": (1, 1, 1, 1, 1)
         }
+
+
         rear_wing_contributions = {
             "Typhoon": (50, 27, 26, 23, 0.53),
             "Transcendence": (24, 22, 36, 37, 0.53),
@@ -50,6 +56,7 @@ class CarSetup:
             "Phantom-X": (26, 15, 12, 11, 0.76),
             "Starter": (1, 1, 1, 1, 1)
         }
+
         front_wing_contributions = {
             "Virtue": (23, 50, 27, 24, 0.49),
             "Thunderclap": (35, 23, 21, 33, 0.55),
@@ -60,6 +67,7 @@ class CarSetup:
             "The Scout": (13, 27, 15, 14, 0.73),
             "Starter": (1, 1, 1, 1, 1)
         }
+
         suspension_contributions = {
             "Sigma": (32, 28, 30, 29, 0.39),
             "Presence": (23, 26, 24, 22, 0.2),
@@ -70,6 +78,7 @@ class CarSetup:
             "The Equator": (20, 19, 18, 21, 0.61),
             "Starter": (1, 1, 1, 1, 1)
         }
+
         engine_contributions = {
             "Cloudroar": (26, 24, 50, 27, 0.55),
             "Avalanche": (34, 22, 25, 21, 0.35),
@@ -81,58 +90,120 @@ class CarSetup:
             "Starter": (1, 1, 1, 1, 1)
         }
 
-        # Calculate contributions based on selected components
-        contributions["speed"] += brakes_contributions[self.brakes][0]
-        contributions["cornering"] += brakes_contributions[self.brakes][1]
-        contributions["power_unit"] += brakes_contributions[self.brakes][2]
-        contributions["reliability"] += brakes_contributions[self.brakes][3]
-        contributions["avg_pit_stop_time"] += brakes_contributions[self.brakes][4]
+        contributions["speed"] += brakes_contributions[self.breaks][0]
+        contributions["cornering"] += brakes_contributions[self.breaks][1]
+        contributions["powerUnit"] += brakes_contributions[self.breaks][2]
+        contributions["reliability"] += brakes_contributions[self.breaks][3]
+        contributions["averagePitStopTime"] += brakes_contributions[self.breaks][4]
 
-        contributions["speed"] += gearbox_contributions[self.gearbox][0]
-        contributions["cornering"] += gearbox_contributions[self.gearbox][1]
-        contributions["power_unit"] += gearbox_contributions[self.gearbox][2]
-        contributions["reliability"] += gearbox_contributions[self.gearbox][3]
-        contributions["avg_pit_stop_time"] += gearbox_contributions[self.gearbox][4]
+        contributions["speed"] += gearbox_contributions[self.gearBox][0]
+        contributions["cornering"] += gearbox_contributions[self.gearBox][1]
+        contributions["powerUnit"] += gearbox_contributions[self.gearBox][2]
+        contributions["reliability"] += gearbox_contributions[self.gearBox][3]
+        contributions["averagePitStopTime"] += gearbox_contributions[self.gearBox][4]
 
-        contributions["speed"] += rear_wing_contributions[self.rear_wing][0]
-        contributions["cornering"] += rear_wing_contributions[self.rear_wing][1]
-        contributions["power_unit"] += rear_wing_contributions[self.rear_wing][2]
-        contributions["reliability"] += rear_wing_contributions[self.rear_wing][3]
-        contributions["avg_pit_stop_time"] += rear_wing_contributions[self.rear_wing][4]
+        contributions["speed"] += rear_wing_contributions[self.rearWing][0]
+        contributions["cornering"] += rear_wing_contributions[self.rearWing][1]
+        contributions["powerUnit"] += rear_wing_contributions[self.rearWing][2]
+        contributions["reliability"] += rear_wing_contributions[self.rearWing][3]
+        contributions["averagePitStopTime"] += rear_wing_contributions[self.rearWing][4]
 
-        contributions["speed"] += front_wing_contributions[self.front_wing][0]
-        contributions["cornering"] += front_wing_contributions[self.front_wing][1]
-        contributions["power_unit"] += front_wing_contributions[self.front_wing][2]
-        contributions["reliability"] += front_wing_contributions[self.front_wing][3]
-        contributions["avg_pit_stop_time"] += front_wing_contributions[self.front_wing][4]
+        contributions["speed"] += front_wing_contributions[self.frontWing][0]
+        contributions["cornering"] += front_wing_contributions[self.frontWing][1]
+        contributions["powerUnit"] += front_wing_contributions[self.frontWing][2]
+        contributions["reliability"] += front_wing_contributions[self.frontWing][3]
+        contributions["averagePitStopTime"] += front_wing_contributions[self.frontWing][4]
 
         contributions["speed"] += suspension_contributions[self.suspension][0]
         contributions["cornering"] += suspension_contributions[self.suspension][1]
-        contributions["power_unit"] += suspension_contributions[self.suspension][2]
+        contributions["powerUnit"] += suspension_contributions[self.suspension][2]
         contributions["reliability"] += suspension_contributions[self.suspension][3]
-        contributions["avg_pit_stop_time"] += suspension_contributions[self.suspension][4]
+        contributions["averagePitStopTime"] += suspension_contributions[self.suspension][4]
 
         contributions["speed"] += engine_contributions[self.engine][0]
         contributions["cornering"] += engine_contributions[self.engine][1]
-        contributions["power_unit"] += engine_contributions[self.engine][2]
+        contributions["powerUnit"] += engine_contributions[self.engine][2]
         contributions["reliability"] += engine_contributions[self.engine][3]
-        contributions["avg_pit_stop_time"] += engine_contributions[self.engine][4]
+        contributions["averagePitStopTime"] += engine_contributions[self.engine][4]
 
         return contributions
 
-    # Define lists of options for each component
-    brakes =  ["Wildcore", "Suspense", "The Warden", "Onyx", "Axiom", "Crisis SL", "Essence", "Starter"]
-    gearboxes = ["Voyage", "Vector", "Kick Shift", "Verdict", "Spectrum", "Swiftcharge", "Switch-R-OD", "Starter"]
-    rear_wings =["Typhoon", "Transcendence", "Freeflare", "The Patron", "The Wasp", "The Matador", "Phantom-X", "Starter"]
-    front_wings =["Virtue", "Thunderclap", "Trailblazer", "Zeno", "The Vagabond", "Feral Punch", "The Scout", "Starter"]
-    suspensions = ["Sigma", "Presence", "Horizon", "Radiance", "Icon V3", "Rodeo", "The Equator", "Starter"]
-    engines = ["Cloudroar", "Avalanche", "The Rover", "Twinburst", "Enigma", "Nova", "Brute Force", "Starter"]
+# Opções de pilotos com seus respectivos desempenhos
+drivers = {
+    'Max Verstappen': {
+        'overtaking': 97,   # Habilidade de ultrapassagem
+        'defending': 86,    # Habilidade de defesa contra ultrapassagens
+        'qualifying': 99,   # Desempenho na sessão de classificação
+        'race_start': 89,   # Habilidade nas largadas das corridas
+        'tyre_management': 94   # Habilidade em gerenciar o desgaste dos pneus
+    },
+    'Charles Leclerc': {
+        'overtaking': 93,
+        'defending': 99,
+        'qualifying': 97,
+        'race_start': 87,
+        'tyre_management': 89
+    },
+    'Fernando Alonso': {
+        'overtaking': 99,
+        'defending': 92,
+        'qualifying': 89,
+        'race_start': 97,
+        'tyre_management': 88
+    },
+    'Lewis Hamilton': {
+        'overtaking': 81,
+        'defending': 86,
+        'qualifying': 89,
+        'race_start': 94,
+        'tyre_management': 90
+    },
+    'Lando Norris': {
+        'overtaking': 99,
+        'defending': 95,
+        'qualifying': 99,
+        'race_start': 99,
+        'tyre_management': 99
+    },
+    'George Russell': {
+        'overtaking': 95,
+        'defending': 90,
+        'qualifying': 91,
+        'race_start': 83,
+        'tyre_management': 86
+    },
+    'Sergio Perez': {
+        'overtaking': 85,
+        'defending': 96,
+        'qualifying': 89,
+        'race_start': 91,
+        'tyre_management': 84
+    },
+    'Carlos Sainz': {
+        'overtaking': 84,
+        'defending': 85,
+        'qualifying': 95,
+        'race_start': 90,
+        'tyre_management': 91
+    },
+    'Lance Stroll': {
+        'overtaking': 92,
+        'defending': 83,
+        'qualifying': 87,
+        'race_start': 94,
+        'tyre_management': 89
+    },
+    'Pierre Gasly': {
+        'overtaking': 88,
+        'defending': 93,
+        'qualifying': 83,
+        'race_start': 85,
+        'tyre_management': 96
+    },
+}
 
-
-# Define driver attributes
-
-Driversbottles = {
-
+# Garrafas contendo adicionais de desempenho
+bottles = {
     'Tsar': {
         'defending': 10,
         'tyre_management': 15,
@@ -353,75 +424,3 @@ Driversbottles = {
     }
 }
 
-drivers = {
-    'Max Verstappen': {
-        'overtaking': 97,
-        'defending': 86,
-        'qualifying': 99,
-        'race_start': 89,
-        'tyre_management': 94
-    },
-    'Charles Leclerc': {
-        'overtaking': 93,
-        'defending': 99,
-        'qualifying': 97,
-        'race_start': 87,
-        'tyre_management': 89
-    },
-    'Fernando Alonso': {
-        'overtaking': 99,
-        'defending': 92,
-        'qualifying': 89,
-        'race_start': 97,
-        'tyre_management': 88
-    },
-    'Lewis Hamilton': {
-        'overtaking': 81,
-        'defending': 86,
-        'qualifying': 89,
-        'race_start': 94,
-        'tyre_management': 90
-    },
-    'Lando Norris': {
-        'overtaking': 99,
-        'defending': 95,
-        'qualifying': 99,
-        'race_start': 99,
-        'tyre_management': 99
-    },
-    'George Russell': {
-        'overtaking': 95,
-        'defending': 90,
-        'qualifying': 91,
-        'race_start': 83,
-        'tyre_management': 86
-    },
-    'Sergio Perez': {
-        'overtaking': 85,
-        'defending': 96,
-        'qualifying': 89,
-        'race_start': 91,
-        'tyre_management': 84
-    },
-    'Carlos Sainz': {
-        'overtaking': 84,
-        'defending': 85,
-        'qualifying': 95,
-        'race_start': 90,
-        'tyre_management': 91
-    },
-    'Lance Stroll': {
-        'overtaking': 92,
-        'defending': 83,
-        'qualifying': 87,
-        'race_start': 94,
-        'tyre_management': 89
-    },
-    'Pierre Gasly': {
-        'overtaking': 88,
-        'defending': 93,
-        'qualifying': 83,
-        'race_start': 85,
-        'tyre_management': 96
-    },
-}
