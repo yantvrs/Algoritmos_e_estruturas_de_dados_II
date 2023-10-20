@@ -65,10 +65,6 @@ A Tarefa 3 envolve a criação de um grafo bipartido que representa as garrafinh
 
 O código para a Tarefa 3 está contido no arquivo `tarefa3.py`.
 
-## Resultados
-
-Os resultados das tarefas foram apresentados em gráficos e análises, como detalhado acima. Cada tarefa contribuiu para uma compreensão mais profunda das configurações de veículo, componentes e garrafinhas no contexto do jogo F1 Clash.
-
 ## Como Executar o Código
 
 Para executar o código, siga estas etapas:
