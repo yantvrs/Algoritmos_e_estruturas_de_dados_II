@@ -2,9 +2,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import seaborn as sns
 
-from Setups import bottles
-from Setups import drivers
-from Setups import CarSetups
+from configuringASetup.Setups import CarSetups
 
 
 # Task 1
@@ -75,7 +73,7 @@ colors = ['red' if 'score' in G1.nodes[node] and G1.nodes[node]['score'] else 'b
 
 
 plt.figure(figsize=(15, 15))
-pos = nx.kamada_kawai_layout(G1)
+pos = nx.kamada_kawai_layout(G1, scale=2.0)
 nx.draw(G1, pos, with_labels=True, node_size=sizes, node_color=colors, font_size=8, alpha=0.7)
 plt.title("Relação entre Configurações e Componentes")
 plt.show()
@@ -91,49 +89,3 @@ plt.ylabel('Densidade')
 plt.show()
 
 
-
-# Task 3
-G2 = nx.Graph()
-
-for bottle, attributes in bottles.items():
-    G2.add_node(bottle, bipartite=0)
-    for attr, value in attributes.items():
-        if not G2.has_node(attr):
-            G2.add_node(attr, bipartite=1)
-        G2.add_edge(bottle, attr, weight=value)
-
-bottle_nodes = [n for n, d in G2.nodes(data=True) if d['bipartite'] == 0]
-attribute_nodes = [n for n, d in G2.nodes(data=True) if d['bipartite'] == 1]
-
-
-pos = dict()
-pos.update((node, (1, index)) for index, node in enumerate(bottle_nodes))
-pos.update((node, (2, index)) for index, node in enumerate(attribute_nodes))
-
-edge_weights = {}
-for (u, v, data) in G2.edges(data=True):
-    if (u, v) not in edge_weights:
-        edge_weights[(u, v)] = data['weight']
-    else:
-        edge_weights[(u, v)] += data['weight']
-
-
-G3 = nx.Graph()
-G3.add_nodes_from(G2.nodes(data=True))
-for (u, v), weight in edge_weights.items():
-    G3.add_edge(u, v, weight=weight)
-
-pos = dict()
-pos.update((node, (1, index)) for index, node in enumerate(bottle_nodes))
-pos.update((node, (2, index)) for index, node in enumerate(attribute_nodes))
-
-plt.figure(figsize=(15,15))
-nx.draw(G3, pos, with_labels=True, node_size=700, node_color='skyblue', font_size=10)
-labels = nx.get_edge_attributes(G3, 'weight')
-nx.draw_networkx_edge_labels(G3, pos, edge_labels=labels)
-plt.title("Grafo Bipartido das Garrafinhas e Propriedades")
-plt.show()
-
-
-
-# Task 4

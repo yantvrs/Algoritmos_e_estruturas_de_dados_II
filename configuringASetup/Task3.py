@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import math
 
-from Setups import bottles
+from configuringASetup.Setups import bottles
 
 G2 = nx.Graph()
 
