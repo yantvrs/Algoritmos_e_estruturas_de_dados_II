@@ -130,7 +130,7 @@ def create_and_visualize_graph(allSetups, limiter):
     plt.show()
 
 if __name__ == "__main__":
-    limiter = 850
+    limiter = 868
     allSetups, teamScores = generate_all_setups(limiter)
     plot_team_score_histogram(teamScores, limiter)
     create_and_visualize_graph(allSetups, limiter)
