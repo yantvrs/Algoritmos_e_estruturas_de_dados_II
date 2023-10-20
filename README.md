@@ -27,14 +27,14 @@ This repository is dedicated to the course **Algorithms and Data Structures II**
 
 Here are the links to the three projects developed as part of the **Algorithms and Data Structures II** course at the Federal University of Rio Grande do Norte:
 
-1. **autocompleteWords**
-   - [autocompleteWords](https://github.com/yantvrs/Data_structure_2/tree/main/autocompleteWords)
 
-2. **configuringASetup**
-   - [configuringASetup](https://github.com/yantvrs/Data_structure_2/tree/main/configuringASetup)
+- [autocompleteWords](https://github.com/yantvrs/Data_structure_2/tree/main/autocompleteWords)
 
-3. **consultasRapidasEmCSV**
-   - [consultasRapidasEmCSV](https://github.com/yantvrs/Data_structure_2/tree/main/consultasRapidasEmCSV)
+
+- [configuringASetup](https://github.com/yantvrs/Data_structure_2/tree/main/configuringASetup)
+
+
+- [consultasRapidasEmCSV](https://github.com/yantvrs/Data_structure_2/tree/main/consultasRapidasEmCSV)
 
 Feel free to explore these projects by following the provided links. Each project's repository contains relevant Python code, documentation, and additional resources related to that specific topic. Enjoy exploring and learning from these projects! 🚀
 
