@@ -1,5 +1,7 @@
+# Class to represent car setups with various components
 class CarSetups:
     def __init__(self, breaks, gearBox, rearWing, frontWing, suspension, engine):
+        # Initialize car setup components
         self.breaks = breaks
         self.gearBox = gearBox
         self.rearWing = rearWing
@@ -7,6 +9,7 @@ class CarSetups:
         self.suspension = suspension
         self.engine = engine
 
+    # Options for each component
     breaksOptions = ["Wildcore", "Suspense", "The Warden", "Onyx", "Axiom", "Crisis SL", "Essence", "Starter"]
     gearBoxesOptions = ["Voyage", "Vector", "Kick Shift", "Verdict", "Spectrum", "Swiftcharge", "Switch-R-OO", "Starter"]
     rearWingsOptions = ["Typhoon", "Transcendence", "Freeflare", "The Patron", "The Wasp", "The Matador", "Phantom-X", "Starter"]
@@ -14,6 +17,7 @@ class CarSetups:
     suspensionsOptions = ["Sigma", "Presence", "Horizon", "Radiance", "Icon V3", "Rodeo", "The Equator", "Starter"]
     enginesOptions = ["Cloudroar", "Avalanche", "The Rover", "Twinburst", "Enigma", "Nova", "Brute Force", "Starter"]
 
+    # Calculate and return contributions for the setup
     def sum_contributions(self):
         contributions = {
             "speed": 0,
@@ -23,6 +27,7 @@ class CarSetups:
             "averagePitStopTime": 0
         }
 
+        # Define contributions for each component
         brakes_contributions = {
             "Wildcore": (36, 23, 33, 22, 0.59),
             "Suspense": (20, 32, 23, 21, 0.37),
@@ -90,6 +95,7 @@ class CarSetups:
             "Starter": (1, 1, 1, 1, 1)
         }
 
+        # Add contributions from selected components to the overall contributions
         contributions["speed"] += brakes_contributions[self.breaks][0]
         contributions["cornering"] += brakes_contributions[self.breaks][1]
         contributions["powerUnit"] += brakes_contributions[self.breaks][2]
@@ -128,14 +134,14 @@ class CarSetups:
 
         return contributions
 
-# Opções de pilotos com seus respectivos desempenhos
+# Driver performance data
 drivers = {
     'Max Verstappen': {
-        'overtaking': 97,   # Habilidade de ultrapassagem
-        'defending': 86,    # Habilidade de defesa contra ultrapassagens
-        'qualifying': 99,   # Desempenho na sessão de classificação
-        'race_start': 89,   # Habilidade nas largadas das corridas
-        'tyre_management': 94   # Habilidade em gerenciar o desgaste dos pneus
+        'overtaking': 97,
+        'defending': 86,
+        'qualifying': 99,
+        'race_start': 89,
+        'tyre_management': 94
     },
     'Charles Leclerc': {
         'overtaking': 93,
@@ -202,7 +208,7 @@ drivers = {
     },
 }
 
-# Garrafas contendo adicionais de desempenho
+# Performance-enhancing bottles
 bottles = {
     'Tsar': {
         'defending': 10,
