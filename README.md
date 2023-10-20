@@ -23,22 +23,21 @@ This repository is dedicated to the course **Algorithms and Data Structures II**
 - **University:** [Federal University of Rio Grande do Norte (UFRN)](https://www.ufrn.br/)
 - **Center:** [Center of Technology (CT)](https://www.ct.ufrn.br/)
 
-## Topics Covered 📋
+# Projects
 
-Here are some of the key topics covered in this course:
+Here are the links to the three projects developed as part of the **Algorithms and Data Structures II** course at the Federal University of Rio Grande do Norte:
 
-- Data structures for graphs.
-- Graph searching algorithms.
-- Asymptotic analysis of algorithms.
-- Divide and conquer algorithms.
-- Greedy algorithms.
-- Data compression and Huffman coding.
-- Dynamic programming.
-- Topological sorting.
-- Minimum spanning trees.
-- Shortest paths in graphs.
-- Flow in graphs.
-- NP-completeness.
+1. **autocompleteWords**
+   - [autocompleteWords](https://github.com/yantvrs/Data_structure_2/tree/main/autocompleteWords)
+
+2. **configuringASetup**
+   - [configuringASetup](https://github.com/yantvrs/Data_structure_2/tree/main/configuringASetup)
+
+3. **consultasRapidasEmCSV**
+   - [consultasRapidasEmCSV](https://github.com/yantvrs/Data_structure_2/tree/main/consultasRapidasEmCSV)
+
+Feel free to explore these projects by following the provided links. Each project's repository contains relevant Python code, documentation, and additional resources related to that specific topic. Enjoy exploring and learning from these projects! 🚀
+
 
 ## Getting Started 🚀
 
