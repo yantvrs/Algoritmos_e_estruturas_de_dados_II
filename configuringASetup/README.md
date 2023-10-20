@@ -61,7 +61,7 @@ A análise do gráfico PDF revelou informações sobre a distribuição das cone
 
 A Tarefa 3 envolve a criação de um grafo bipartido que representa as garrafinhas do jogo F1 Clash e suas propriedades correspondentes. Os nós de garrafinhas são posicionados em um layout elíptico, enquanto os nós de propriedades são posicionados mais próximos das garrafinhas. As arestas representam a relação entre as garrafinhas e suas propriedades.
 
-![Grafo Bipartido das Garrafinhas](link_para_imagem_do_grafo_bipartido.png)](link_para_imagem_do_grafo_bipartido.png)
+![Grafo Bipartido das Garrafinhas](https://github.com/yantvrs/Data_structure_2/blob/main/configuringASetup/images/task_3.png)
 
 O código para a Tarefa 3 está contido no arquivo `tarefa3.py`.
 
