@@ -87,7 +87,6 @@ Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LIC
 
 **Equipe do Projeto**:
 
-- [Seu Nome](link_para_seu_perfil) - Desenvolvedor
-- [Nome do Colega](link_para_perfil_do_colega) - Colaborador
+- [Emanoel Batista](https://github.com/EmanoelBatista) 
+- [Yan Tavares](https://github.com/yantvrs) 
 
-Data da última atualização: DD/MM/AAAA
