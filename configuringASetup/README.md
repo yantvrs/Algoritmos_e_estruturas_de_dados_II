@@ -11,7 +11,7 @@ Este repositório contém o código e os resultados de um projeto de análise de
 
 Nesta tarefa, nosso objetivo era criar um histograma para a métrica "Team Score" com base nas 262.144 possíveis combinações de configurações de veículo no jogo F1 Clash. Além disso, estabelecemos um limite no histograma para filtrar as configurações viáveis, a fim de identificar configurações com maior potencial no jogo.
 
-![Histograma Team Score]()
+![Histograma Team Score](https://github.com/yantvrs/Data_structure_2/blob/main/configuringASetup/images/limite_0_task_1.png)
 
 **Processo:**
 
