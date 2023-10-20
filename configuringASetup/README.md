@@ -49,7 +49,6 @@ Na Tarefa 2, criamos um grafo direcionado que nos permitiu visualizar as relaç�
 - **Relações entre Configurações e Componentes:** O grafo revelou as relações entre as configurações e os componentes. A presença de arestas indicou quais componentes estão presentes em cada configuração. Isso é valioso para estratégias de configuração de veículo.
 
 [Imagem do grafo](https://github.com/yantvrs/Data_structure_2/blob/main/configuringASetup/images/task_2_part_1.png)
-
 **PDF do "Out Degree" dos Vértices de Configuração:**
 
 Além disso, geramos um gráfico para a Função de Densidade de Probabilidade (PDF) do "Out Degree" dos vértices de configuração no grafo. O gráfico de PDF nos ajuda a entender como as configurações se relacionam com os componentes em termos de conexões.
@@ -62,7 +61,7 @@ A análise do gráfico PDF revelou informações sobre a distribuição das cone
 
 A Tarefa 3 envolve a criação de um grafo bipartido que representa as garrafinhas do jogo F1 Clash e suas propriedades correspondentes. Os nós de garrafinhas são posicionados em um layout elíptico, enquanto os nós de propriedades são posicionados mais próximos das garrafinhas. As arestas representam a relação entre as garrafinhas e suas propriedades.
 
-[![Grafo Bipartido das Garrafinhas](link_para_imagem_do_grafo_bipartido.png)](https://github.com/yantvrs/Data_structure_2/blob/main/configuringASetup/images/task_3.png)
+[![Grafo Bipartido das Garrafinhas](link_para_imagem_do_grafo_bipartido.png)](link_para_imagem_do_grafo_bipartido.png)
 
 O código para a Tarefa 3 está contido no arquivo `tarefa3.py`.
 
