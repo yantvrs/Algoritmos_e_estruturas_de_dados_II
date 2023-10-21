@@ -86,11 +86,6 @@ Para executar o código, siga estas etapas:
 
 3. Os gráficos resultantes serão gerados e exibidos na tela.
 
-## Authors 👨‍💻👩‍💻
-
-- [Yan Tavares](https://github.com/yantvrs)
-- [Emanoel Batista](https://github.com/EmanoelBatista)
-
 ## Explainer Video 📹
 
 - Watch the explanatory video [here](https://www.loom.com/share/d71da665d6cd4afab46034a9f9506934).
