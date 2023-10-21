@@ -65,6 +65,14 @@ A Tarefa 3 envolve a criação de um grafo bipartido que representa as garrafinh
 
 O código para a Tarefa 3 está contido no arquivo `tarefa3.py`.
 
+## Tarefa 4 
+
+# Resumo
+Nesta tarefa, o objetivo é encontrar a melhor configuração para uma equipe de corrida no jogo "F1 Clash". Isso é alcançado por meio da combinação de diferentes peças de carro, pilotos e garrafas. A melhor configuração é determinada com base em uma fórmula específica que leva em consideração várias métricas de desempenho, incluindo velocidade, aderência e confiabilidade. O resultado é a configuração ótima para maximizar o desempenho da equipe no jogo "F1 Clash."
+
+# Execução
+Para executar este código, é necessário ter as bibliotecas e módulos personalizados adequados com informações sobre as opções de configuração de carros, pilotos e garrafas. Certifique-se de que esses recursos estejam disponíveis e acessíveis antes de executar o código.
+
 ## Como Executar o Código
 
 Para executar o código, siga estas etapas:
