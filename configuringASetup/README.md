@@ -65,19 +65,13 @@ A Tarefa 3 envolve a criação de um grafo bipartido que representa as garrafinh
 
 O código para a Tarefa 3 está contido no arquivo `tarefa3.py`.
 
-## Tarefa 4 
-
-## Introdução
+## Tarefa 4
 
 A "Tarefa 4" se concentra na otimização da configuração de uma equipe de corrida no jogo "F1 Clash". O objetivo principal é encontrar a configuração ideal que maximize o desempenho da equipe nas corridas. Isso é alcançado por meio da combinação de diferentes elementos, incluindo as peças do carro, pilotos e garrafas. A tarefa envolve a avaliação de várias combinações possíveis desses elementos para determinar a configuração que resulta na melhor pontuação da equipe.
 
 Ao longo do processo, são consideradas diversas métricas de desempenho, como velocidade, aderência, confiabilidade e outros fatores críticos para o sucesso da equipe no jogo. A solução desenvolvida por este código visa auxiliar os jogadores a tomar decisões informadas ao escolherem a configuração que lhes proporcionará uma vantagem competitiva no mundo virtual das corridas de Fórmula 1.
 
 A tarefa é projetada com base no conteúdo da Semana 05 e visa proporcionar aos jogadores uma ferramenta para melhorar sua estratégia de configuração e, assim, obter um desempenho superior nas corridas do jogo "F1 Clash".
-
-
-# Resumo
-Nesta tarefa, o objetivo é encontrar a melhor configuração para uma equipe de corrida no jogo "F1 Clash". Isso é alcançado por meio da combinação de diferentes peças de carro, pilotos e garrafas. A melhor configuração é determinada com base em uma fórmula específica que leva em consideração várias métricas de desempenho, incluindo velocidade, aderência e confiabilidade. O resultado é a configuração ótima para maximizar o desempenho da equipe no jogo "F1 Clash."
 
 # Execução
 Para executar este código, é necessário ter as bibliotecas e módulos personalizados adequados com informações sobre as opções de configuração de carros, pilotos e garrafas. Certifique-se de que esses recursos estejam disponíveis e acessíveis antes de executar o código.
