@@ -86,6 +86,15 @@ Para executar o código, siga estas etapas:
 
 3. Os gráficos resultantes serão gerados e exibidos na tela.
 
+## Authors 👨‍💻👩‍💻
+
+- [Yan Tavares](https://github.com/yantvrs)
+- [Emanoel Batista](https://github.com/EmanoelBatista)
+
+## Explainer Video 📹
+
+- Watch the explanatory video [here]().
+
 ## Contribuição
 
 Sinta-se à vontade para contribuir para este projeto abrindo problemas, propondo melhorias ou adicionando novas funcionalidades.
