@@ -1,2 +1,2 @@
 ## Vídeo explicativo
-- - Assista ao vídeo explicativo [aqui]().
+- Assista ao vídeo explicativo [aqui]().
