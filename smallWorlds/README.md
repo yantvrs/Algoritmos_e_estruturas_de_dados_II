@@ -8,6 +8,24 @@ O projeto Small Worlds é uma projeto acadêmico que se concentra na análise de
 
 O projeto "Small Worlds" explora os seguintes conceitos-chave:
 
+1. **Assortatividade**: O projeto investiga a tendência das palavras e frases curtas a se associarem com base em critérios específicos, como a semelhança em idioma ou estrutura. A assortatividade ajuda a compreender como as palavras se agrupam de acordo com características compartilhadas.
+
+2. **Distâncias**: Uma análise de distâncias é realizada para avaliar a proximidade ou semelhança entre palavras e frases curtas em diferentes idiomas. Isso é fundamental para a categorização e organização eficaz do conteúdo de aprendizado.
+
+3. **Componentes Conectados**: O projeto explora como as palavras e frases curtas podem ser agrupadas em componentes conectados ou clusters com base em suas relações e semelhanças. Isso facilita a criação de lições e exercícios de aprendizado.
+
+4. **Coeficiente de Clustering**: O coeficiente de clustering é calculado para entender quão densamente as palavras estão agrupadas em torno de um ponto central. Isso ajuda a determinar a eficácia das estratégias de aprendizado com base na estrutura das palavras e frases.
+
+## Requisitos do Projeto 📋
+
+O projeto "Small Worlds" é composto por três requisitos principais:
+
+### Requisito 1: Escolha de Redes 🌐
+
+O primeiro requisito do projeto envolve a escolha de pelo menos 5 redes no site [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/). Essas redes servirão como base para a análise de assortatividade e outros atributos.
+
+As cinco redes selecionadas para análise no projeto "Small Worlds" incluem:
+
 1. **Amazon Product Co-purchasing Network, June 01 2003**:
    - Esta rede foi coletada ao rastrear o site da Amazon. Ela se baseia na função "Customers Who Bought This Item Also Bought". Basicamente, se dois produtos (i e j) são frequentemente comprados juntos por clientes, há uma conexão direcionada de i para j no grafo. Os dados dessa rede foram coletados em junho de 2003.
 
@@ -22,33 +40,6 @@ O projeto "Small Worlds" explora os seguintes conceitos-chave:
 
 5. **Email-EU-Core Network**:
    - Essa rede é derivada de dados de e-mails de uma grande instituição de pesquisa europeia. Ela representa a comunicação entre membros da instituição, e uma aresta (u, v) indica que a pessoa u enviou pelo menos um e-mail para a pessoa v. Além disso, o conjunto de dados contém informações sobre a qual departamento da instituição cada indivíduo pertence, permitindo análises de comunidades.
-
-
-## Requisitos do Projeto 📋
-
-O projeto "Small Worlds" é composto por três requisitos principais:
-
-### Requisito 1: Escolha de Redes 🌐
-
-O primeiro requisito do projeto envolve a escolha de pelo menos 5 redes no site [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/). Essas redes servirão como base para a análise de assortatividade e outros atributos.
-
-As cinco redes selecionadas para análise no projeto "Small Worlds" incluem:
-
-
-1. **Amazon Product Co-purchasing Network, June 01 2003**:
-   - **Informações do Conjunto de Dados**: Esta rede foi coletada rastreando o site da Amazon e baseia-se na funcionalidade "Customers Who Bought This Item Also Bought" do site. Se um produto i for frequentemente coadquirido com o produto j, o grafo contém uma aresta direcionada de i para j. Os dados foram coletados em junho de 2003.
-
-2. **Gnutella Peer-to-peer Network, August 4 2002**:
-   - **Informações do Conjunto de Dados**: Esta rede consiste em uma sequência de instantâneos da rede de compartilhamento de arquivos peer-to-peer Gnutella a partir de agosto de 2002. Existem um total de 9 instantâneos da rede Gnutella coletados em agosto de 2002. Os nós representam hosts na topologia da rede Gnutella e as arestas representam conexões entre os hosts.
-
-3. **Slashdot Signed Social Network, November 2008**:
-   - **Informações do Conjunto de Dados**: O Slashdot é um site de notícias relacionadas à tecnologia conhecido por sua comunidade de usuários específica. Em 2002, o Slashdot introduziu o recurso Slashdot Zoo, que permite que os usuários marquem uns aos outros como amigos ou inimigos. A rede contém links de amigo/inimigo entre os usuários do Slashdot. Os dados foram obtidos em novembro de 2008.
-
-4. **CollegeMsg Temporal Network**:
-   - **Informações do Conjunto de Dados**: Este conjunto de dados é composto por mensagens privadas enviadas em uma rede social online na Universidade da Califórnia, Irvine. Os usuários podiam procurar outros na rede e, em seguida, iniciar conversas com base nas informações de perfil. Uma aresta (u, v, t) significa que o usuário u enviou uma mensagem privada para o usuário v no momento t. O conjunto de dados foi parseado para que possa ser carregado diretamente no SNAP como uma rede temporal.
-
-5. **Email-EU-Core Network**:
-   - **Informações do Conjunto de Dados**: Esta rede foi gerada usando dados de e-mail de uma grande instituição de pesquisa europeia. Os e-mails representam a comunicação entre membros da instituição (o núcleo) e a rede contém uma aresta (u, v) se a pessoa u enviou pelo menos um e-mail para a pessoa v. O conjunto de dados também contém associações de comunidade "ground-truth" dos nós, onde cada indivíduo pertence a exatamente um dos 42 departamentos da instituição de pesquisa.
 
 Essas redes servirão como base para a análise de assortatividade, distâncias, componentes conectados e coeficiente de clustering no projeto "Small Worlds".
 
