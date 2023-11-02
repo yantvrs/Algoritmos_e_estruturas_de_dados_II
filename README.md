@@ -36,6 +36,8 @@ Here are the links to the three projects developed as part of the **Algorithms a
 
 - [consultasRapidasEmCSV](https://github.com/yantvrs/Data_structure_2/tree/main/consultasRapidasEmCSV)
 
+- [smallWorlds](https://github.com/yantvrs/Data_structure_2/tree/main/smallWorlds)
+
 Feel free to explore these projects by following the provided links. Each project's repository contains relevant Python code, documentation, and additional resources related to that specific topic. Enjoy exploring and learning from these projects! 🚀
 
 
