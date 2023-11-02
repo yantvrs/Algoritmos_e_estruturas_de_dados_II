@@ -1,12 +1,12 @@
-# Small Words
+# Small Worlds
 
 ## Visão Geral
 
-O projeto Small Words é uma projeto acadêmico que se concentra na análise de cinco redes de grafos distintas, explorando suas características e, mais especificamente, investigando conceitos de assortatividade, distâncias, componentes conectados e Coeficiente de Clustering. Este projeto é parte de um esforço mais amplo para aprofundar nosso entendimento de redes complexas e contribuir para o campo da teoria dos grafos.
+O projeto Small Worlds é uma projeto acadêmico que se concentra na análise de cinco redes de grafos distintas, explorando suas características e, mais especificamente, investigando conceitos de assortatividade, distâncias, componentes conectados e Coeficiente de Clustering. Este projeto é parte de um esforço mais amplo para aprofundar nosso entendimento de redes complexas e contribuir para o campo da teoria dos grafos.
 
-## Exploração de Conteúdos
+## Exploração de Conteúdos 📚
 
-O projeto "Small Words" explora os seguintes conceitos-chave:
+O projeto "Small Worlds" explora os seguintes conceitos-chave:
 
 1. **Assortatividade**: O projeto investiga a tendência das palavras e frases curtas a se associarem com base em critérios específicos, como a semelhança em idioma ou estrutura. A assortatividade ajuda a compreender como as palavras se agrupam de acordo com características compartilhadas.
 
@@ -16,28 +16,28 @@ O projeto "Small Words" explora os seguintes conceitos-chave:
 
 4. **Coeficiente de Clustering**: O coeficiente de clustering é calculado para entender quão densamente as palavras estão agrupadas em torno de um ponto central. Isso ajuda a determinar a eficácia das estratégias de aprendizado com base na estrutura das palavras e frases.
 
-## Requisitos do Projeto
+## Requisitos do Projeto 📋
 
-O projeto "Small Words" é composto por três requisitos principais:
+O projeto "Small Worlds" é composto por três requisitos principais:
 
-### Requisito 1: Escolha de Redes
+### Requisito 1: Escolha de Redes 🌐
 
 O primeiro requisito do projeto envolve a escolha de pelo menos 5 redes no site [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/). Essas redes servirão como base para a análise de assortatividade e outros atributos.
 
-### [Requisito 2](https://github.com/yantvrs/Data_structure_2/tree/main/U2T2/Requisito_02): Análise de Assortatividade
+### [Requisito 2](https://github.com/yantvrs/Data_structure_2/tree/main/U2T2/Requisito_02): Análise de Assortatividade 📈
 
 Para cada uma das redes escolhidas, o projeto realizará uma análise de assortatividade em relação ao grau dos nós da rede. Isso ajudará a compreender como os nós se associam com base em seu grau na rede.
 
-### [Requisito 3](https://github.com/yantvrs/Data_structure_2/tree/main/U2T2/Requisito_03): Implementação da Tabela de Atributos
+### [Requisito 3](https://github.com/yantvrs/Data_structure_2/tree/main/U2T2/Requisito_03): Implementação da Tabela de Atributos 📊
 
 O terceiro requisito envolve a implementação de uma tabela que descreve as relações dos atributos calculados, incluindo a assortatividade. Esta tabela será uma parte essencial da documentação do projeto.
 
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 💻
 
 - **Python**: A linguagem de programação principal usada para desenvolver o projeto.
 
-## Compilação do Código
+## Compilação do Código 🚀
 
 Para compilar e executar o código Python do projeto Small Words, siga estas etapas:
 
@@ -55,6 +55,6 @@ Para compilar e executar o código Python do projeto Small Words, siga estas eta
    python main.py
 ```
 
-## Desenvolvedor
+## Desenvolvedor 👨‍💻
 
 [Yan Tavares](https://github.com/yantvrs)
