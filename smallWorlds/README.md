@@ -8,13 +8,18 @@ O projeto Small Worlds é uma projeto acadêmico que se concentra na análise de
 
 O projeto "Small Worlds" explora os seguintes conceitos-chave:
 
-1. **Assortatividade**: O projeto investiga a tendência das palavras e frases curtas a se associarem com base em critérios específicos, como a semelhança em idioma ou estrutura. A assortatividade ajuda a compreender como as palavras se agrupam de acordo com características compartilhadas.
 
-2. **Distâncias**: Uma análise de distâncias é realizada para avaliar a proximidade ou semelhança entre palavras e frases curtas em diferentes idiomas. Isso é fundamental para a categorização e organização eficaz do conteúdo de aprendizado.
+1. **Assortatividade**:
+   - A assortatividade em um grafo se refere à tendência dos nós (ou elementos) a se conectarem preferencialmente com outros nós que compartilham características semelhantes. Em termos de grafos, isso significa que nós com propriedades semelhantes tendem a se ligar uns aos outros, resultando em uma rede onde os nós "se atraem". A assortatividade é uma medida que ajuda a entender como os nós se agrupam com base em características compartilhadas.
 
-3. **Componentes Conectados**: O projeto explora como as palavras e frases curtas podem ser agrupadas em componentes conectados ou clusters com base em suas relações e semelhanças. Isso facilita a criação de lições e exercícios de aprendizado.
+2. **Distâncias**:
+   - Em um grafo, a distância entre dois nós é uma medida que indica o número de arestas ao longo do caminho mais curto entre esses nós. A análise de distâncias em grafos é fundamental para avaliar a proximidade ou semelhança entre os elementos do grafo. Essa medida é essencial para categorizar e organizar eficazmente o conteúdo de aprendizado, pois permite identificar a proximidade ou a acessibilidade entre elementos.
 
-4. **Coeficiente de Clustering**: O coeficiente de clustering é calculado para entender quão densamente as palavras estão agrupadas em torno de um ponto central. Isso ajuda a determinar a eficácia das estratégias de aprendizado com base na estrutura das palavras e frases.
+3. **Componentes Conectados**:
+   - Os componentes conectados em um grafo são conjuntos de nós que estão conectados entre si, mas não estão diretamente ligados a outros conjuntos de nós. Em outras palavras, um componente conectado é uma porção do grafo onde cada nó pode ser alcançado a partir de qualquer outro nó do mesmo componente. A identificação de componentes conectados ajuda a criar grupos ou clusters de elementos que compartilham relações entre si.
+
+4. **Coeficiente de Clustering**:
+   - O coeficiente de clustering em um grafo mede a tendência de nós a formarem agrupamentos densos. Ele avalia quão densamente os vizinhos de um nó estão interconectados. Isso ajuda a entender quão "agrupados" os elementos estão em torno de um ponto central no grafo. O coeficiente de clustering é uma métrica essencial para determinar a eficácia de estratégias de aprendizado com base na estrutura dos elementos do grafo.
 
 ## Requisitos do Projeto 📋
 
