@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carregando o grafo a partir de um arquivo de adjacência
-G = nx.read_adjlist("../../web-Stanford.txt")
+G = nx.read_adjlist("../../CollegeMsg.txt")
 
 # average degree of neighbors
 degree, avg_neigh_degree = zip(*nx.average_degree_connectivity(G).items())
