@@ -52,7 +52,7 @@ Essas redes servirão como base para a análise de assortatividade, distâncias,
 
 Para cada uma das redes escolhidas, o projeto realizará uma análise de assortatividade em relação ao grau dos nós da rede. Isso ajudará a compreender como os nós se associam com base em seu grau na rede.
 
-### [Requisito 3](https://github.com/yantvrs/Data_structure_2/tree/main/smallWorlds/Requisito 03): Implementação da Tabela de Atributos 📊
+### [Requisito 3](https://github.com/yantvrs/Data_structure_2/tree/main/smallWorlds/Requisito_03): Implementação da Tabela de Atributos 📊
 
 O terceiro requisito envolve a implementação de uma tabela que descreve as relações dos atributos calculados, incluindo a assortatividade. Esta tabela será uma parte essencial da documentação do projeto.
 
