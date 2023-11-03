@@ -2,6 +2,8 @@
 
 Abaixo estão os resultados da análise para cada rede, acompanhados de gráficos representativos.
 
+Para visualizar os códigos que geraram os gráficos das Redes, [clique aqui](https://github.com/yantvrs/Data_structure_2/tree/main/smallWorlds/Requisito_02/sources).
+
 ## Resultados
 
 ### Rede 1: Amazon Product Co-purchasing Network
