@@ -72,4 +72,4 @@ Estas análises oferecem uma visão mais detalhada das características de cada 
 
 ## Conclusões
 
-Com base na análise das métricas para as redes estudadas, pode-se concluir que cada rede possui características distintas em termos de assortatividade de grau, componentes conectados, tamanho do componente gigante e coeficiente de agr
+Com base na análise das métricas para as redes estudadas, pode-se concluir que cada rede possui características distintas em termos de assortatividade de grau, componentes conectados, tamanho do componente gigante e coeficiente de agrupamento. Essas métricas são importantes para compreender a estrutura e a dinâmica de cada rede e podem ser usadas para diferentes finalidades, como otimização de algoritmos ou estudos de propagação de informações.
