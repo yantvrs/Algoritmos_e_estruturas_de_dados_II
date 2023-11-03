@@ -27,7 +27,7 @@ A análise da rede de amizades e inimizades entre os usuários do Slashdot, cole
 
 ![Gráfico rede 4](https://github.com/yantvrs/Data_structure_2/blob/main/smallWorlds/Requisito_02/sources/imagens/degree_assortativity_rede_04.png)
 
-A análise das mensagens privadas trocadas em uma rede social online da Universidade da Califórnia, Irvine, representadas no conjunto de dados como arestas (u, v, t), indicou um padrão de regressão linear decrescente. Isso significa que, ao longo do tempo, há uma tendência de os usuários com menor atividade de envio de mensagens privadas se conectarem com aqueles que têm maior atividade. Em outras palavras, os usuários mais ativos tendem a receber mensagens de outros usuários com menor atividade. Essa dinâmica pode ter implicações interessantes para entender como a comunicação evolui dentro dessa rede social específica da Universidade da Califórnia, Irvine
+A análise das mensagens privadas trocadas em uma rede social online da Universidade da Califórnia, Irvine, representadas no conjunto de dados como arestas (u, v, t), indicou um padrão de regressão linear decrescente. Isso significa que, ao longo do tempo, há uma tendência de os usuários com menor atividade de envio de mensagens privadas se conectarem com aqueles que têm maior atividade. Em outras palavras, os usuários mais ativos tendem a receber mensagens de outros usuários com menor atividade. 
 
 ### Rede 5: Email-EU-Core Network
 
