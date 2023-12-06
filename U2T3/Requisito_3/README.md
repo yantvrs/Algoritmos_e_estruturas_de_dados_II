@@ -13,6 +13,6 @@ Podemos ver que o impacto na porcentagem total dos vértices que tem o maior qua
 ## Gráfico Probability Density Function (PDF)
 Outra forma de fazer essas análises. Ela dá probabilidade no ponto.
 ![PDF](https://github.com/yantvrs/Data_structure_2/blob/main/U2T3/Requisito_3/images/requisito3_PDF.png)
-No nosso gráfico, podemos ver aproximadamente 2% dos nós/vértices, 5000 mil, da nossa rede tem faixa de 0 a 100 vizinhos.
+No nosso gráfico, podemos ver aproximadamente 2,5% dos nós/vértices, 5000 mil, da nossa rede tem faixa de 0 a 100 vizinhos.
 Também podemos ver que uma quantidade muito baixa de vértices que a rede tem, aproximadamente 100, tem uma grande quantidade de conexões, entre 250.
 
