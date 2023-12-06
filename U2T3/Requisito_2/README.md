@@ -6,7 +6,7 @@ Neste requisito, a representação visual da rede no Gephi destaca quatro perspe
 
 ## Legenda
 
-Conjunto de cores para auxiliar no entendimento dos grafos. 
+Conjunto de cores para auxiliar no entendimento dos grafos. Quanto mais próximo de branco, menor o número de atributos, quanto mais próximo de azul, maior o número de atributos.
 
 ![Legenda de cores](https://github.com/yantvrs/Data_structure_2/blob/main/U2T3/Requisito_2/images/image.png)
 
