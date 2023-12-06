@@ -3,7 +3,7 @@
 ## Descrição
 
 
-## Gráfico cumulative Density Function CDF
+## Gráfico Cumulative Density Function CDF
 ![CDF](https://github.com/yantvrs/Data_structure_2/blob/main/U2T3/Requisito_3/images/requisito3_CDF.png)
 
 
