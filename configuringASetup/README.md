@@ -86,10 +86,6 @@ Para executar o código, siga estas etapas:
 
 3. Os gráficos resultantes serão gerados e exibidos na tela.
 
-## Explainer Video 📹
-
-- Watch the explanatory video [here](https://www.loom.com/share/d71da665d6cd4afab46034a9f9506934).
-
 ## Contribuição
 
 Sinta-se à vontade para contribuir para este projeto abrindo problemas, propondo melhorias ou adicionando novas funcionalidades.
