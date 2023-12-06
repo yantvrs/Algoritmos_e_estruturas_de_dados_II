@@ -12,7 +12,7 @@ Também podemos ver que uma quantidade muito baixa de vértices que a rede tem, 
 
 
 ## Gráfico Probability Density Function (PDF)
-Outra forma de fazer essas análises. Ela é uma probabilidade acumulativa. Ela faz a análise usando a integral dá área.
+Outra forma de fazer essas análises. É uma probabilidade acumulativa. Ela faz a análise usando a integral dá área.
 ![PDF](https://github.com/yantvrs/Data_structure_2/blob/main/U2T3/Requisito_3/images/requisito3_PDF.png)
 Na análise do nosso gráfico, podemos ver que  90% dos vértices da nossa rede tem um grau aproximadamente 100 ou menos. Ou seja, 90% dos vértices tem 100 amigos ou menos. 
 Podemos ver que o impacto na porcentagem total dos vértices que tem o maior quantidade de conexões é bem pouca.
