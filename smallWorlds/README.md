@@ -79,10 +79,6 @@ Para compilar e executar o código Python do projeto Small Words, siga estas eta
    python main.py
 ```
 
-## Explainer Video 📹
-
-- Assita o vídeo explicativo [aqui](https://www.loom.com/share/5fac7dd5f296441db0696f9e9bd52889?sid=a3e9beca-8ef3-4fb3-8a93-9e0b81934fb4).
-
 ## Desenvolvedor 👨‍💻
 
 [Yan Tavares](https://github.com/yantvrs)
