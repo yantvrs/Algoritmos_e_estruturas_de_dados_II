@@ -2,10 +2,6 @@
 
 This project involves creating a class called `Inventory` to represent an inventory of laptops in an online store. The class implements methods to answer various business questions about the laptop stock. Inventory data is stored in a CSV file called `laptops.csv`.
 
-## 🎥 Video Explanation
-
-Watch the explanatory video [here](https://www.loom.com/share/cde99f21e8d04f1c8d04f3ace932095a?sid=183ea0e4-e5c6-43a5-8577-47e26a7d131c).
-
 ## 📈 Algorithmic Complexity Analysis
 
 To access the algorithmic complexity analysis, simply click [here](https://github.com/yantvrs/Data_structure_2/blob/main/consultasRapidasEmCSV/complexidade.md).

@@ -57,10 +57,6 @@ Before running the code, make sure you have Python installed on your machine. Yo
 - [Yan Tavares](https://github.com/yantvrs)
 - [Emanoel Batista](https://github.com/EmanoelBatista)
 
-## Explainer Video 📹
-
-- Watch the explanatory video [here](https://www.loom.com/share/8ad76d9bef3d4986992ab2d3bb1abe56?sid=d0bcd515-0ba4-4769-9407-339271528f16).
-
 ## Contributions 🤝
 
 - If you wish to contribute to this project, please open a pull request and describe your changes.
