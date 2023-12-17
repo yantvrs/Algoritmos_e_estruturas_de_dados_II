@@ -37,7 +37,7 @@ buscando adaptar sua infraestrutura para promover uma mobilidade mais sustentáv
   infraestrutura que apoia não apenas o lazer, mas também o ciclismo como um modo de transporte diário, revelando como a
   política e cultura holandesas favorecem o ciclismo.
 
-[Ciclovias Amsterdã](ProjetoFinal/images/ciclovias_Amsterdam.png)
+![Ciclovias Amsterdã](https://github.com/yantvrs/Data_structure_2/blob/main/ProjetoFinal/images/ciclovias_Amsterdam.png)
 
 #### 2.2 São Paulo
 
@@ -47,7 +47,7 @@ buscando adaptar sua infraestrutura para promover uma mobilidade mais sustentáv
   pode ter áreas significativas não atendidas por ciclovias seguras e conectadas, demonstrando a existência das reais
   prioridades de mobilidade urbana e dos desafios de planejamento na cidade.
 
-[Ciclovias São Paulo](ProjetoFinal/images/ciclovias_Sao_Paulo.png)
+![Ciclovias São Paulo](https://github.com/yantvrs/Data_structure_2/blob/main/ProjetoFinal/images/ciclovias_Sao_Paulo.png)
 
 #### 2.3 Berlim
 
@@ -57,7 +57,7 @@ buscando adaptar sua infraestrutura para promover uma mobilidade mais sustentáv
   mostre que a cobertura pode não ser tão extensa quanto em Amsterdam. A distribuição das ciclovias pode ser
   influenciada pelo layout histórico da cidade e pelas políticas de mobilidade.
 
-[Ciclovias Berlim](ProjetoFinal/images/ciclovias_Berlin.png)
+![Ciclovias Berlim](https://github.com/yantvrs/Data_structure_2/blob/main/ProjetoFinal/images/ciclovias_Berlin.png)
 
 ### 3. Análise Comparativa e Identificação de Áreas Críticas
 
