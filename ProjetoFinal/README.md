@@ -146,7 +146,7 @@ identificar e superar os obstáculos à construção de novas ciclovias.
 
 **Autores:**
 
-- [Jordan Marques de Almeida Ramos](https://github.com/jordanmaramos)
-- [Pedro Rego Vilar Neto](https://github.com/pedrorvn)
-- [Vinícius Yan Tavares Nascimento](https://github.com/yantvrs)
+- ![Jordan Marques de Almeida Ramos](https://github.com/jordanmaramos)
+- ![Pedro Rego Vilar Neto](https://github.com/pedrorvn)
+- ![Vinícius Yan Tavares Nascimento](https://github.com/yantvrs)
 
