@@ -1,6 +1,6 @@
 # Comparação de Infraestrutura Ciclística em Diferentes Cidades 🚴
 
-### Vídeo explicativo 🎥
+## Vídeo explicativo 
 
 Para acessar a o vídeo, basta clicar [aqui](https://drive.google.com/drive/folders/19XuXnEDAyT_7T_dYFCt_2Vhf2CVDecEb)
 
