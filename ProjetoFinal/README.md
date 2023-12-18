@@ -2,7 +2,7 @@
 
 ## Vídeo explicativo 
 
-Para acessar a o vídeo, basta clicar [aqui](https://drive.google.com/file/d/1NTE0BD7zcpurdmelEv9UJvdwMKmtRaCs/view?usp=sharing)
+Para acessar a o vídeo, basta clicar [aqui](https://drive.google.com/file/d/1NTE0BD7zcpurdmelEv9UJvdwMKmtRaCs/view?usp=sharing).
 
 ## Descrição do Projeto
 
